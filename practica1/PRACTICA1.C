@@ -10,6 +10,28 @@ void mi_pausa(){
 	 int86(0x21, &inregs, &outregs);
 }
 
+void pixel(int x, int y, unsigned char C){
+   union REGS inregs, outregs;
+   inregs.x.cx = x;
+   inregs.x.dx = y;
+   inregs.h.al = C;
+   inregs.h.ah = 0x0C;
+   int86(0x10, &inregs, &outregs);
+}
+
+void linea(){
+
+	int i;
+	int j;
+
+	for(i=0; i<100; i++){
+		for(j=0; j<100; j++){
+			pixel(i,j, i%4 );
+		}
+   }
+
+}
+
 /*
 * Función para colocar el cursor en una posición determinada.
 * Parametros de entrada --> posición x e y del cursor.
@@ -140,6 +162,43 @@ int getche(){
 	 return caracter;
 }
 
+/*
+* Función para crear dibujos en modo texto.
+* Entrada --> coordenadas superior izquierda e inferior derecha, color de fondo y color de primer plano.
+*/
+
+void dibujomodotexto(int sup_izquierda_x, int sup_izquierda_y, int inf_derecha_x, int inf_derecha_y, int color_fondo, int color_texto){
+
+	int i;
+	int j;
+
+	for(i = sup_izquierda_x; i<inf_derecha_x; i++){
+		for(j = sup_izquierda_y; j<inf_derecha_y; j++){
+			gotoxy(i, j);
+			textcolor(color_texto);
+			backgroundcolor(color_fondo);
+			cputchar('*');
+		}
+	}
+
+	printf("\n\n");
+
+}
+
+/*
+* Función para establecer el modo CGA para crear dibujos sencillos.
+*/
+
+void dibujosmodoCGA(){
+
+	setvideomode(4);
+
+	linea();
+
+   mi_pausa();
+
+}
+
 int main(){
 
     int modo;
@@ -177,17 +236,29 @@ int main(){
 	mi_pausa();
 
 	printf("\nFuncion para escribir un caracter por pantalla....");
-	COLOR_FONDO = 5;
-	COLOR_TEXTO = 2;
+	backgroundcolor(5);
+	textcolor(2);
 	cputchar('A');
 	mi_pausa();
 
 	printf("\nPulsa una tecla...  ");
 	tmp = getche();
 	printf("\nHas pulsado: ");
-	COLOR_FONDO = 5;
-	COLOR_TEXTO = 2;
+	backgroundcolor(5);
+	textcolor(2);
     cputchar( (char)tmp );
+	mi_pausa();
+
+	clrsc();
+	printf("\nComienza el dibujo...");
+	mi_pausa();
+	dibujomodotexto(2, 3, 15, 30, 5, 2);
+	mi_pausa();
+
+	clrsc();
+	printf("\nEstableciendo modo CGA...");
+	mi_pausa();
+	dibujosmodoCGA();
 
 	printf("\nPulsa una tecla y acaba...");
 	mi_pausa();

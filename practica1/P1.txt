@@ -1,1 +1,0 @@
-# Práctica 1. Entrada/Salida utilizando interrupciones en lenguaje C.

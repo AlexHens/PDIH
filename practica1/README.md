@@ -16,4 +16,10 @@ Para comprobar el correcto funcionamiento hemos colocado el cursor en la posici�
 
 Esta función básicamente nos modifica el tipo de cursor que se muestra por pantalla y para ello hemos usado la interrupción número 10 junto con la función número 1. Para probar los distintos cursores hemos comprobado mediante un condicional el tipo de cursor que se nos pasará como argumento de la función y en función del tipo de cursor daremos unos valores a los registros de entrada u otros.
 
+![codigo setcursortype()](https://github.com/AlexHens/PDIH/blob/main/practica1/images/setcursortype.png)
+
+Para comprobar su funcionamiento simplemente hemos llamado a la función pasándole los distintos tipos de cursores como argumentos.
+
+![test setcursortype()](https://github.com/AlexHens/PDIH/blob/main/practica1/images/setcursortype_test.png)
+
 

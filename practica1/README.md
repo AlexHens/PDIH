@@ -22,4 +22,13 @@ Para comprobar su funcionamiento simplemente hemos llamado a la función pasánd
 
 ![test setcursortype()](https://github.com/AlexHens/PDIH/blob/main/practica1/images/setcursortype_test.png)
 
+## 3. Función setvideomode()
+
+Esta función nos permite modificar el modo de vídeo de la interfaz pasándole como argumento a la función el modo de vídeo que se desea poner. Para ello hemos hecho uso de la interrupción número 10 junto con la función 0, además hemos asignado el modo de vídeo que se pasa como argumento al registro AL.
+
+![funcion setvideomode()](https://github.com/AlexHens/PDIH/blob/main/practica1/images/setvideomode.png)
+
+Para comprobar el correcto funcionamiento de esta función le hemos indicado que nos cambie al modo de vídeo 1, que correspondería al de letras grandes.
+
+![test setvideomode()](https://github.com/AlexHens/PDIH/blob/main/practica1/images/setvideomode_test.png)
 

@@ -58,3 +58,13 @@ Para comprobar su funcionamiento simplemente hemos llamado a la función.
 
 ![test clrscr()](https://github.com/AlexHens/PDIH/blob/main/practica1/images/clrscr_test.png)
 
+## 7. Función cputchar()
+
+Esta función nos escribe un determinado carácter por pantalla con los colores de fondo y texto especificados. Para ello hemos usado la interrupción 10 junto con el número de función 9, además hemos asignado los registros de los parámetros de entradas de la siguiente forma: el registro AL contiene el carácter que se desea escribir y el registro BL contiene el color de fondo que se desea usar, en sus primeros 4 bits, y el color de texto que se desea usar, en los 4 siguientes.
+
+![funcion cputchar()](https://github.com/AlexHens/PDIH/blob/main/practica1/images/cputchar.png)
+
+Para comprobar su funcionamiento le hemos pedido que nos imprima la letra "A" en color verde y con color de fondo magenta.
+
+![test cputchar()](https://github.com/AlexHens/PDIH/blob/main/practica1/images/cputchar_test.png)
+

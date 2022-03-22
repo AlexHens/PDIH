@@ -84,3 +84,14 @@ Para comprobar el correcto funcionamiento de la función hemos hecho el siguient
 
 ![test dibujarmodotexto()](https://github.com/AlexHens/PDIH/blob/main/practica1/images/test_dibujomodotexto.png)
 
+## 10. Función dibujosmodoCGA()
+
+Esta función nos permitirá establecer el modo gráfico (CGA) y hacer dibujos en este. Para usar esta función simplemente hemos llamado a la función setvideomode() y le especificamos el modo de vídeo 4, que corresponde al modo CGA.
+
+![funcion dibujomodoCGA()](https://github.com/AlexHens/PDIH/blob/main/practica1/images/dibujomodoCGA.png)
+
+Para comprobar el correcto funcionamiento del programa hemos hecho el siguiente dibujo.
+
+![test dibujomodoCGA](https://github.com/AlexHens/PDIH/blob/main/practica1/images/test_dibujomodoCGA.png)
+
+

@@ -32,3 +32,13 @@ Para comprobar el correcto funcionamiento de esta función le hemos indicado que
 
 ![test setvideomode()](https://github.com/AlexHens/PDIH/blob/main/practica1/images/setvideomode_test.png)
 
+## 4. Función getvideomode()
+
+Esta función nos muestra el tipo de modo de vídeo que tenemos activo actualmente. Para ello haremos uso de la interrupción 10 y el número de función F, únicamente introduciremos estos parámetros de entrada. Una vez llamada a la interrupción obtendremos de los parámetros de salida el modo de vídeo actualmente activo, en concreto lo obtendremos del registro AL.
+
+![funcion getvideomode()](https://github.com/AlexHens/PDIH/blob/main/practica1/images/getvideomode.png)
+
+Para comprobar el correcto funcionamiento llamaremos a la función y mostraremos el tipo de vídeo por pantalla.
+
+![test setvideomode()](https://github.com/AlexHens/PDIH/blob/main/practica1/images/setvideomode_test.png)
+

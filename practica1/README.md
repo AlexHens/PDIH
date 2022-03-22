@@ -68,3 +68,19 @@ Para comprobar su funcionamiento le hemos pedido que nos imprima la letra "A" en
 
 ![test cputchar()](https://github.com/AlexHens/PDIH/blob/main/practica1/images/cputchar_test.png)
 
+## 8. Función getche()
+
+Esta función nos permite obtener un carácter por teclado y mostrarlo en la pantalla. Para ello usaremos la interrupción 21 y el número de función 1, no especificaremos ningún parámetro de entrada a parte de los ya mencionados, pero obtendremos de los registros de salida el valor del registro AL, el cual contendrá el carácter que ha sido pulsado.
+
+![funcion getche()](https://github.com/AlexHens/PDIH/blob/main/practica1/images/getche.png)
+
+## 9. Función dibujomodotexto()
+
+Esta función nos permitirá hacer dibujos en modo texto, especificando las coordenadas del extremo superior izquierdo y del extremo inferior derecho, además de los colores de texto y de fondo. Para esta función hemos hecho uso de las funciones gotoxy(), textcolor(), backgroundcolor() y cputchar(), las cuales hemos comentado antes. La función gotoxy nos permitirá colocar el cursor en una posición determinada, las funciones textcolor() y backgroundcolor() nos permiten asignar los colores que hemos especificado y la función cputchar() nos permitirá colocar un carácter en la posición determinada con los colores especificados. De esta forma podemos ir colocando carácteres en posiciones determinadas y haciendo dibujos.
+
+![funcion dibujarmodotexto()](https://github.com/AlexHens/PDIH/blob/main/practica1/images/dibujarmodotexto.png)
+
+Para comprobar el correcto funcionamiento de la función hemos hecho el siguiente dibujo.
+
+![test dibujarmodotexto()](https://github.com/AlexHens/PDIH/blob/main/practica1/images/test_dibujomodotexto.png)
+

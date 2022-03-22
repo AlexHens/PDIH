@@ -48,3 +48,13 @@ Estas funciones nos permitirán cambiar el color del texto y de fondo, respectiv
 
 ![funcion textcolor() y backgroundcolor()](https://github.com/AlexHens/PDIH/blob/main/practica1/images/textcolor_backgroundcolor.png)
 
+## 6. Función clrscr()
+
+Esta función sencillamente nos limpia la pantalla. Para realizarla teníamos dos opciones, la primera era imprimir saltos de línea hasta que la pantalla se limpiase y la segunda era con una serie de interrupciones más elaboradas. En nuestro caso hemos trabajado con la segunda opción, para ello hemos usado la interrupción 10 junto con los números de función 15 y 0.
+
+![funcion clrscr()](https://github.com/AlexHens/PDIH/blob/main/practica1/images/clrscr.png)
+
+Para comprobar su funcionamiento simplemente hemos llamado a la función.
+
+![test clrscr()](https://github.com/AlexHens/PDIH/blob/main/practica1/images/clrscr_test.png)
+

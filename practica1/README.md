@@ -42,3 +42,9 @@ Para comprobar el correcto funcionamiento llamaremos a la función y mostraremos
 
 ![test setvideomode()](https://github.com/AlexHens/PDIH/blob/main/practica1/images/setvideomode_test.png)
 
+## 5. Funciones textcolor() y backgroundcolor()
+
+Estas funciones nos permitirán cambiar el color del texto y de fondo, respectivamente. Para ello, en este caso, no hemos hecho uso de ninguna interrupción, simplemente hemos declarado dos variables globales que controlarán el color de texto y de fondo. Dichas variables tienen asignados unos valores iniciales, negro para el fondo y gris claro para el texto. Nuestras funciones toman como parámetros los nuevos valores de texto y fondo, y simplemente les asigna estos nuevos valores a estas variables globales.
+
+![funcion textcolor() y backgroundcolor()](https://github.com/AlexHens/PDIH/blob/main/practica1/images/textcolor_backgroundcolor.png)
+

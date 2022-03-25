@@ -1,6 +1,6 @@
 # Práctica 1. Entrada/Salida utilizando interrupciones con lenguaje C.
 
-**Realizada por:** Alejandro Sánchez Hens y Paula Molina 
+**Realizada por:** Alejandro Sánchez Hens y Paula Molina Castillo
 
 ## 1. Función gotoxy()
 

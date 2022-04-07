@@ -24,7 +24,7 @@ sudo apt-get install linux-headores-$(uname -r)
 
 <div>
 <p style = 'text-align:center;'>
-<img src="https://github.com/AlexHens/PDIH/blob/main/seminario%204/images/update-s4.jpg" alt="JuveYell" width="300px">
+<img src="https://github.com/AlexHens/PDIH/blob/main/seminario%204/images/update-s4.jpg" alt="update" width="500px">
 </p>
 </div>
 

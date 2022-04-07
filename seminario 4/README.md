@@ -22,11 +22,11 @@ sudo apt-cache search linux-headers-$(uname -r)
 sudo apt-get install linux-headores-$(uname -r)
 ~~~
 
-<div>
-    <p style = 'text-align:center;'>
-        <img src="https://github.com/AlexHens/PDIH/blob/main/seminario%204/images/update-s4.jpg" alt="update" width="500px">
-    </p>
-</div>
+<center>
+
+![update](https://github.com/AlexHens/PDIH/blob/main/seminario%204/images/update-s4.jpg)
+
+</center>
 
 Con estas órdenes del terminal lo que hacemos es buscar e instalar las cabeceras del kernel que necesitaremos para empezar a trabajar con los LKM's.
 

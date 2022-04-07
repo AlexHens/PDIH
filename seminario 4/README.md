@@ -26,6 +26,10 @@ sudo apt-get install linux-headores-$(uname -r)
 <img src="https://github.com/AlexHens/PDIH/blob/main/seminario%204/images/update-s4.jpg" alt="update" width="500px">
 </p>
 
+<p align="center">
+<img src="https://github.com/AlexHens/PDIH/blob/main/seminario%204/images/search-install-s4.jpg" alt="search and install" width="500px">
+</p>
+
 Con estas órdenes del terminal lo que hacemos es buscar e instalar las cabeceras del kernel que necesitaremos para empezar a trabajar con los LKM's.
 
 Se recomienda realizar todo este procedimiento, además de las pruebas, en una máquina virtual y no en nuestra máquina Linux, ya que es relativamente sencillo bloquear o dañar el núcleo del sistema.

@@ -22,6 +22,12 @@ sudo apt-cache search linux-headers-$(uname -r)
 sudo apt-get install linux-headores-$(uname -r)
 ~~~
 
+<div>
+<p style = 'text-align:center;'>
+<img src="seminario 4/images/update-s4.jpg" alt="JuveYell" width="300px">
+</p>
+</div>
+
 Con estas órdenes del terminal lo que hacemos es buscar e instalar las cabeceras del kernel que necesitaremos para empezar a trabajar con los LKM's.
 
 Se recomienda realizar todo este procedimiento, además de las pruebas, en una máquina virtual y no en nuestra máquina Linux, ya que es relativamente sencillo bloquear o dañar el núcleo del sistema.

@@ -48,12 +48,4 @@ void loop() {
 
 En el código anterior podemos ver como en la primera función **setup()** hemos declarado el puerto de cada uno de los puertos que hemos conectado a la placa de montaje. Mientras que en la función **loop()**, la cual es la que en realidad contiene el funcionamiento de nuestro circuito, hemos declarado una serie de pautas de encendidos y apagados de los LEDs junto con una serie de esperas para que así podamos ver como se van encendiendo y apagando cada uno de nuestros LEDs en el orden que hemos especificado.
 
-Por último, a continuación mostramos un vídeo del correcto funcionamiento de dicho circuito.
-
-<div>
-<p style = 'text-align:center;'>
-<iframe width="600" height = "420"
-src="https://drive.google.com/file/d/1F9Hczb2fbOKzzxFIs60QOrALsla-qnca/view?usp=sharing">
-</iframe>
-</div>
-</p>
+Por último, a continuación mostramos un vídeo del correcto <a href="https://drive.google.com/file/d/1F9Hczb2fbOKzzxFIs60QOrALsla-qnca/view?usp=sharing" title="Funcionamiento Parpadeo 3 LEDs">funcionamiento</a> de dicho circuito.

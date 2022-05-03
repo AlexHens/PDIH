@@ -8,3 +8,6 @@ El primer programa que vamos a implementar es un sencillo programa para controla
 
 Para ello, hemos realizado primeramente el montaje del circuito en una placa de arduino.
 
+<p align="center">
+    <img src="https://github.com/AlexHens/PDIH/blob/main/practica3/images/parpadeo_3_leds_montaje.jpg" width= "700" >
+</p>

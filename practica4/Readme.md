@@ -200,7 +200,7 @@ Como podemos ver para crear un círuclo debemos establecer una serie de parámet
 A continuación podemos ver una imágen que nos muestra el resultado final.
 
 <p align="center">
-    <img src="https://github.com/AlexHens/PDIH/blob/main/practica4/micasita.jpg" width= "400" >
+    <img src="https://github.com/AlexHens/PDIH/blob/main/practica4/tarjeta_visita.jpg" width= "400" >
 </p>
 
 ## 3. Dibujo de un corazón y texto
@@ -291,5 +291,5 @@ setfont
 A continuación podemos ver una imágen que nos muestra el resultado final.
 
 <p align="center">
-    <img src="https://github.com/AlexHens/PDIH/blob/main/practica4/micasita.jpg" width= "400" >
+    <img src="https://github.com/AlexHens/PDIH/blob/main/practica4/corazon.jpg" width= "400" >
 </p>

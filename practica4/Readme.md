@@ -108,7 +108,7 @@ Como podemos ver hemos definido la fuente que hemos usado, el tamaño de la mism
 A continuación podemos ver una imágen que nos muestra el resultado final.
 
 <p align="center">
-    <img src="https://github.com/AlexHens/PDIH/blob/main/practica4/micasita.jpg" width= "400" >
+    <img src="https://github.com/AlexHens/PDIH/blob/main/practica4/micasita.jpg" width= "600" >
 </p>
 
 ## 2. Tarjeta de visita
